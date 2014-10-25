@@ -19,7 +19,7 @@
 ##
    
 makeCacheMatrix <- function(x = matrix()) {
-        inv <- NULL             # Create a variable inv and initialize its value to NULL
+        inv <- NULL             # create a variable inv and initialize its value to NULL
 
         set <- function(y) {
                 x <<- y         # assign value to a variable x in the containing environment
